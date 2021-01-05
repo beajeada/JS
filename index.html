@@ -30,6 +30,20 @@
 		display:grid;
 		grid-template-columns:150px 1fr
 	}
+	@media(max-width:800px) {
+		#A{
+			display:block;
+		}
+		ul{
+			border-right:none;
+		}
+		h1{
+			border-bottom:none;
+		}
+		#I{
+			width:200%;
+		}
+	}
 </style>
 
 </head>
@@ -45,9 +59,11 @@
 			<li style="padding-top:10px"><a href="3.html">역사</a></li>
 		</ul>
 
-	<div style="margin-left:70px">
+	<div style="margin-left:70px; margin-right:40px;">
 		<h2>대한민국</h2>
-		<img src="index.jpg" width="50%">
+		<div id="I">
+			<img src="index.jpg" width="50%">
+		</div>
 
 		<p>
 		<strong>- 정보 -</strong><br>
