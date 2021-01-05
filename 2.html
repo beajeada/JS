@@ -30,6 +30,20 @@
 		display:grid;
 		grid-template-columns:150px 1fr
 	}
+	@media(max-width:800px) {
+		#A{
+			display:block;
+		}
+		ul{
+			border-right:none;
+		}
+		h1{
+			border-bottom:none;
+		}
+		#I{
+			width:200%;
+		}
+	}
 </style>
 
 </head>
@@ -44,10 +58,12 @@
 			<li style="padding-top:10px"><a href="2.html" style="color:gray;text-decoration:underline;">국기</a></li>
 			<li style="padding-top:10px"><a href="3.html">역사</a></li>
 		</ul>
-	<div style="margin-left:70px">
+	<div style="margin-left:70px; margin-right:40px;">
 		<h2>국기</h2>
-		<img src="korea.jpg" width="50%">
-
+		<div id="I">
+			<img src="korea.jpg" width="50%">
+		</div>
+		
 		<p><strong>- 정보 -</strong>
 		<br>고대사회 때부터 각 집단은 그 집단을 상징하기 위하여 동물·해·달과 같은 징표를 사용하였는바,
 		염색과 방적의 기술이 발전함에 따라 그러한 징표를 종이나 천에다 표시하게 된 것이 깃발이다.<br>
