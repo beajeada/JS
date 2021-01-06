@@ -1,0 +1,40 @@
+	body{
+		margin:0px;
+		background-color:#E6E6E6;
+	}
+	a {
+		text-decoration: none;
+		color:black;
+	}
+	h1 {
+		font-size:45px;
+		text-align:center;
+		border-bottom:2px solid gray;
+		padding:35px;
+		margin:0px;
+		background-color:slateblue;
+	}
+	ul {
+		width:100px;
+		margin:0px;
+		padding:35px;
+	}
+	#A {
+		display:grid;
+		grid-template-columns:150px 1fr;
+	}
+	@media(max-width:950px) {
+		#A{
+			display:block;
+		}
+		ul{
+			border-right:none;
+		}
+		h1{
+			border-bottom:none;
+		}
+		#I{
+			width:200%;
+		}
+	}
+	
